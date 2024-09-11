@@ -25,7 +25,6 @@ body{
 }
 
 .first-para{
-    border: 1px solid black;
     font-family: tt-common-bold;
     color: #69443c;
     text-align: center;
@@ -36,7 +35,6 @@ body{
 }
 
 #title{
-    border: 1px solid black;
     font-family: baskvill;
     color: #69443c;
     text-align: center;
@@ -45,7 +43,6 @@ body{
     padding: 30px;}
 
 .second-para{
-    border: 1px solid black;
     font-family: tt-common-light;
     color: #69443c;
     text-align: center;
@@ -65,7 +62,6 @@ body{
 }
 
 .icons{
-    border: 1px solid black;
     color: #69443c;
     margin: 30px auto;
     padding: 20px;
