@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: tt-common-bold;
+    src: url(/fonts/tt-commons/TT\ Commons\ Bold.otf);
+}
+
+@font-face{
+    font-family: baskvill;
+    src: url(/fonts/baskvill/BASKVILL.TTF);
+}
+
+@font-face{
+    font-family: tt-common-light;
+    src: url(/fonts/tt-common-light/);
+}
+
+body{
+    background-image: url(./assets/cream-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.first-para{
+    font-family: tt-common-bold;
+    color: #69443c;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 75px;
+}
+
+#title{
+    font-family: baskvill;
+    color: #69443c;
+    text-align: center;
+    font-size:90px;
+    font-weight: 300;
+    padding: 30px;}
+
+.second-para{
+    font-family: tt-common-light;
+    color: #69443c;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.button{
+    background-color: white;
+    color: #69443c;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.icons{
+    color: #69443c;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+ .fa-instagram{
+    padding-left: 20px;
+}
+
+.fa-twitter{
+    padding-left: 20px;
+}
+
+
+.button:hover{
+    background-color: #69443c;
+    color: white;
+}
