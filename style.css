@@ -4,9 +4,8 @@
 }
 
 @font-face{
-    font-family: tt-commons;
-    src: url(/fonts/tt-commons/TT\ Commons\ Bold.otf;);
-
+    font-family: tt-common-bold;
+    src: url(/fonts/tt-commons/TT\ Commons\ Bold.otf);
 }
 
 @font-face{
@@ -16,7 +15,7 @@
 
 @font-face{
     font-family: tt-common-light;
-    src: url(./fonts/tt-common-light/TT\ Commons\ Light.otf);
+    src: url(/fonts/tt-common-light/);
 }
 
 body{
@@ -26,30 +25,27 @@ body{
 }
 
 .first-para{
-    /* border: 1px solid black; */
-    font-family: tt-commons;
+    border: 1px solid black;
+    font-family: tt-common-bold;
     color: #69443c;
     text-align: center;
     font-weight: 800;
     font-size: 20px;
     text-transform: uppercase;
     padding: 75px;
-
 }
 
 #title{
-    /* border: 1px solid black; */
-    font-family: rosmatika;
+    border: 1px solid black;
+    font-family: baskvill;
     color: #69443c;
     text-align: center;
-    font-size:0px;
+    font-size:90px;
     font-weight: 300;
-    padding: 30px;
-
-}
+    padding: 30px;}
 
 .second-para{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     font-family: tt-common-light;
     color: #69443c;
     text-align: center;
@@ -69,7 +65,7 @@ body{
 }
 
 .icons{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     color: #69443c;
     margin: 30px auto;
     padding: 20px;
